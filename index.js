@@ -20,3 +20,12 @@ let arrayCombinado = [...array1, ...array2];
 //Crear un array con valores únicos utilizando el método Set() y el operador spread()
 let arrayConValoresRepetidos = [1, 2, 2, 3, 3, 4, 5];
 let arrayUnico = [...new Set(arrayConValoresRepetidos)];
+//crear un array con una funcion que genere valores dinamicamente
+function ArrayDinamico(n) {
+    let array = [];
+    for (let i = 0; i < n; i++) {
+      array.push(Math.random());
+    }
+    return array;
+  }
+    let arrayDinamico = ArrayDinamico(5);
