@@ -8,3 +8,5 @@ let DiferentesTipos = [1, 'dos', true, { nombre: 'Juan' }];
 let arrayConstructor = new Array(3);
 //crear un array con una secuencia numerica usando el metodo
 let secuenciaNumerica = Array.from({ length: 5 }, (_, index) => index + 1);
+//crear un array mediante la repeticion de un valor utilizando el metodo Arrayfill()
+let arrayRepetido = Array(5).fill('a');
