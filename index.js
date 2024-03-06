@@ -45,3 +45,6 @@ console.log(array); // Output: [0, 1, 2, 3, 4, 5]
 //Eliminar el primer elemento del array usando shift
 array.shift();
 console.log(array); // Output: [1, 2, 3, 4, 5]
+// Obtener una porción del array usando slice()
+let sliceArray = array.slice(1, 3);
+console.log(sliceArray); // Output: [2, 3]
