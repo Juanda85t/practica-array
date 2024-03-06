@@ -34,5 +34,8 @@ function ArrayDinamico(n) {
     const array = [1, 2, 3, 4, 5];
 console.log(array.length); // Output: 5
 //Agregar elementos al final del array usando push
-array.push(6)
+array.push(6);
 console.log(array); // Output: [1, 2, 3, 4, 5, 6]
+//Eliminar el último elemento del array usando
+array.pop();
+console.log(array); // Output: [1, 2, 3, 4, 5]
