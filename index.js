@@ -48,3 +48,6 @@ console.log(array); // Output: [1, 2, 3, 4, 5]
 // Obtener una porción del array usando slice()
 let sliceArray = array.slice(1, 3);
 console.log(sliceArray); // Output: [2, 3]
+//Convertir un array en un string usando join()
+let stringFromArray = array.join("-");
+console.log(stringFromArray); // Output: "1-2-3-4-5"
