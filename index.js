@@ -54,3 +54,6 @@ console.log(stringFromArray); // Output: "1-2-3-4-5"
 //Obtener una subsección del array desde un índice negativo usando slice()
 let negativeSliceArray = array.slice(-3);
 console.log(negativeSliceArray); // Output: [3, 4, 5]
+//Eliminar una porción del array sin modificar el original usando slice() 
+let newArray = array.slice(0, 2);
+console.log(newArray); // Output: [1, 2]
