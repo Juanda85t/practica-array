@@ -6,3 +6,5 @@ let frutas =["Manzana","Banano","Naranja"];
 let DiferentesTipos = [1, 'dos', true, { nombre: 'Juan' }];
 //crear un array utilizando el constructor array
 let arrayConstructor = new Array(3);
+//crear un array con una secuencia numerica usando el metodo
+let secuenciaNumerica = Array.from({ length: 5 }, (_, index) => index + 1);
