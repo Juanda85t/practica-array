@@ -42,3 +42,6 @@ console.log(array); // Output: [1, 2, 3, 4, 5]
 // Agregar elementos al principio del array usando ubshift
 array.unshift(0);
 console.log(array); // Output: [0, 1, 2, 3, 4, 5]
+//Eliminar el primer elemento del array usando shift
+array.shift();
+console.log(array); // Output: [1, 2, 3, 4, 5]
