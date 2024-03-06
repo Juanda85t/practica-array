@@ -29,3 +29,7 @@ function ArrayDinamico(n) {
     return array;
   }
     let arrayDinamico = ArrayDinamico(5);
+//METODOS BASICOS DE ARRAYS
+    //obtener la longitud de un array
+    let array = [1, 2, 3, 4, 5];
+console.log(array.length); // Output: 5
