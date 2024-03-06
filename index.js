@@ -13,3 +13,7 @@ let arrayRepetido = Array(5).fill('a');
 //crear un array a partir de una cadena de texto usando el metodo string.slit()
 let cadena = 'Hola, cómo estás';
 let arrayDesdeCadena = cadena.split(' ');
+//crear un array combinando dos arrays existentes utilizando el operaodr spread
+let array1 = [1, 2, 3];
+let array2 = [4, 5, 6];
+let arrayCombinado = [...array1, ...array2];
